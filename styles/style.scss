@@ -1,0 +1,37 @@
+
+* {
+      margin: 0;
+      box-sizing: border-box;
+      padding: 0;
+}
+
+body {
+      header {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 10px;
+            background: honeydew;
+            align-items: center;
+
+            h1 {
+                  font-size: 24px;
+            }
+
+            div {
+                  text-align: center;
+            }
+      }
+      main {
+            display: flex;
+            flex-direction: column;
+            padding: 30px 20px;
+            
+            .darkLight {
+                  text-align: center;
+            }
+            h2 {
+                  margin: 20px 0px;
+                  max-width: 600px;
+            }
+      }
+}
