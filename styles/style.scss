@@ -8,19 +8,27 @@
 body {
       header {
             display: flex;
-            justify-content: space-around;
-            padding: 20px 10px;
-            background: honeydew;
+            justify-content: space-between;
+            // padding: 45px 10px;
             align-items: center;
+            border-bottom: 1px solid black;
 
-            h1 {
-                  font-size: 24px;
+            .logo {
+            width: 60%;
+            height: 60%;
+            margin: 15px;
             }
 
             div {
                   text-align: center;
             }
+            .mobile-menu {
+                  width: 60px;
+                  height: 60px;
+                  margin: 10px;
+            }
       }
+
       main {
             display: flex;
             flex-direction: column;
@@ -28,10 +36,44 @@ body {
             
             .darkLight {
                   text-align: center;
+                  background: rgb(29, 29, 29);
+                  width: 50px;
+                  height: 20px;
+                  margin: 0 auto;
+                  border-radius: 20px;
+
+                  .light {
+                        background: rgb(228, 248, 3);
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 50%;
+                        margin: 2px;
+                  }
             }
+
+      section {
             h2 {
-                  margin: 20px 0px;
+                  margin: 40px 0px;
                   max-width: 600px;
+                  font-size: 40px;
             }
+
+            p {
+                  font-size: 26px;
+            }
+
+            div {
+                  text-align: center;
+                  margin: 70px 0px 50px;
+                  font-size: 60px;
+
+                  .chevron {
+                        width: 70px;
+                        height: 70px;
+                  }
+            }
+
+            }
+
       }
 }

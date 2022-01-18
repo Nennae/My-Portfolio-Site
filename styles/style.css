@@ -9,21 +9,29 @@ body header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 20px 10px;
-  background: honeydew;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-bottom: 1px solid black;
 }
 
-body header h1 {
-  font-size: 24px;
+body header .logo {
+  width: 60%;
+  height: 60%;
+  margin: 15px;
 }
 
 body header div {
   text-align: center;
+}
+
+body header .mobile-menu {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
 }
 
 body main {
@@ -39,10 +47,39 @@ body main {
 
 body main .darkLight {
   text-align: center;
+  background: #1d1d1d;
+  width: 50px;
+  height: 20px;
+  margin: 0 auto;
+  border-radius: 20px;
 }
 
-body main h2 {
-  margin: 20px 0px;
+body main .darkLight .light {
+  background: #e4f803;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+body main section h2 {
+  margin: 40px 0px;
   max-width: 600px;
+  font-size: 40px;
+}
+
+body main section p {
+  font-size: 26px;
+}
+
+body main section div {
+  text-align: center;
+  margin: 70px 0px 50px;
+  font-size: 60px;
+}
+
+body main section div .chevron {
+  width: 70px;
+  height: 70px;
 }
 /*# sourceMappingURL=style.css.map */
