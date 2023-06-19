@@ -14,7 +14,7 @@ body {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid black;
+            padding: 10px;
 
             .logo {
             width: 60%;
@@ -29,14 +29,13 @@ body {
             .mobile-menu {
                   width: 60px;
                   height: 60px;
-                  margin: 10px;
             }
       }
 
       main {
             display: flex;
             flex-direction: column;
-            padding: 30px 20px;
+            padding-top: 20px;
             
             .darkLight {
                   text-align: center;
@@ -56,20 +55,21 @@ body {
             }
 
       section {
-            padding: 15px;
+            margin: 40px;
             h2 {
-                  margin: 30px 0px;
                   max-width: 600px;
                   font-size: 34px;
+                  margin-bottom: 30px;
             }
 
-            p {
+            .intro {
                   font-size: 22px;
+                  margin-bottom: 20px;
             }
 
             div {
                   text-align: center;
-                  margin: 70px 0px 7px;
+                  // margin: 70px 0px 7px;
                   font-size: 60px;
 
                   .chevron {
@@ -80,5 +80,46 @@ body {
 
             }
 
+            .projects {
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: center;
+                  align-items: center;
+
+            h2 {
+                  text-align: center;
+                  font-size: 30px;
+                  background: pink;
+            }
+
+                  img {
+                        border: 1px solid black;
+                        height: 300px;
+                        width: 300px;
+                        margin-bottom: 15px;
+                  }
+            }
+
+      }
+
+      footer {
+            height: 300px;
+            border-top: 1px solid black;
+
+            ul {
+                  display: flex;
+                  justify-content: center;
+                  margin-top: 20px;
+
+                  li {
+                        margin: 10px;
+                        list-style: none;
+
+                        i {
+                              font-size: 24px;
+                              color: black;
+                        }
+                  }
+            }
       }
 }
