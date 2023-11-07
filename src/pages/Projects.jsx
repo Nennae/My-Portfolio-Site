@@ -1,6 +1,6 @@
 import Card from "../components/Card";
 
-const Work = () => {
+const Projects = () => {
       return (
             <section className="work-contaier">
                   <Card/>
@@ -8,4 +8,4 @@ const Work = () => {
       )
 }
 
-export default Work;
+export default Projects;

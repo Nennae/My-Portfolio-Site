@@ -1,4 +1,4 @@
-const WorkDetails = () => {
+const ProjectDetails = () => {
       return (
             <section className="workDetails">
                   <div></div>
@@ -6,4 +6,4 @@ const WorkDetails = () => {
       )
 }
 
-export default WorkDetails;
+export default ProjectDetails;
